@@ -1,0 +1,4 @@
+<!--pages/launch/launch.wxml-->
+<view>
+  <image src='resources/image/bg_launcher.png'></image>
+</view>

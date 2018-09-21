@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/launch/launch",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/device/device",
+    "pages/mall/mall",
+    "pages/mine/mine",
+    "pages/mine/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "临e家",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#646464",
+    "selectedColor": "#fdd000",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tab_service_normal.png",
+        "selectedIconPath": "images/tab_service_sel.png",
+        "text": "服务"
+      },
+      {
+        "pagePath": "pages/device/device",
+        "iconPath": "images/tab_device_normal.png",
+        "selectedIconPath": "images/tab_device_sel.png",
+        "text": "设备"
+      },
+      {
+        "pagePath": "pages/mall/mall",
+        "iconPath": "images/tab_mall_normal.png",
+        "selectedIconPath": "images/tab_mall_sel.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/tab_mine_normal.png",
+        "selectedIconPath": "images/tab_mine_sel.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
